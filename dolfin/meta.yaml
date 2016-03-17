@@ -18,7 +18,7 @@ requirements:
     - sphinx
     - libxml2
     - swig ==3.0.7
-    - numpy ==1.9
+    - numpy
     #- vtk
     - ffc ==1.6.0
     - ply
@@ -33,7 +33,7 @@ requirements:
     - openblas
     - libxml2
     - swig ==3.0.7
-    - numpy ==1.9
+    - numpy
     #- vtk
     - ffc ==1.6.0
     - ufl ==1.6.0
