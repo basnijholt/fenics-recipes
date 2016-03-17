@@ -7,7 +7,7 @@ source:
   git_url: https://bitbucket.org/slepc/slepc.git
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
