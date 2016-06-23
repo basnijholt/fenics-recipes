@@ -18,13 +18,13 @@ requirements:
     - libxml2
     - swig
     - numpy
-    - ffc ==1.6.0
+    - ffc
     - ply
     - boost
     - eigen3
     - petsc
     - petsc4py
-    - slepc <=3.6.2
+    - slepc
 
   run:
     - python
@@ -33,14 +33,14 @@ requirements:
     - swig
     - numpy
     #- vtk
-    - ffc ==1.6.0
-    - ufl ==1.6.0
+    - ffc
+    - ufl
     - ply
     - boost
     - eigen3
     - petsc
     - petsc4py
-    - slepc <=3.6.2
+    - slepc
 
 test:
   imports:
