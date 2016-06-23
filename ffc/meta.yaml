@@ -14,14 +14,14 @@ requirements:
   build:
     - python
     - numpy
-    - swig ==3.0.7
+    - swig
     - gcc
     - libgfortran
 
   run:
     - python
     - numpy
-    - swig ==3.0.7
+    - swig
     - ufl ==1.6.0
     - fiat ==1.6.0
     - instant ==1.6.0

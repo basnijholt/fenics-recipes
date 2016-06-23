@@ -1,11 +1,10 @@
 package:
   name: petsc4py
-  version: "3.6.0"
+  version: "3.7.0"
 
 source:
-  fn: petsc4py-3.6.0.tar.gz
-  url: https://bitbucket.org/petsc/petsc4py/downloads/petsc4py-3.6.0.tar.gz
-  md5: e63a8e30318b5de9ffb081832e9daf30
+  fn: petsc4py-3.7.0.tar.gz
+  url: https://bitbucket.org/petsc/petsc4py/downloads/petsc4py-3.7.0.tar.gz
 
 build:
   number: 0
@@ -15,13 +14,13 @@ requirements:
     - python
     - openblas
     - numpy
-    - petsc ==3.6.2
+    - petsc
 
   run:
     - python
     - openblas
     - numpy
-    - petsc ==3.6.2
+    - petsc
 
 test:
   imports:

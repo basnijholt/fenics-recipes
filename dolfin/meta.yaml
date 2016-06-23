@@ -1,11 +1,10 @@
 package:
   name: dolfin
-  version: "1.6.0"
+  version: "1.6.0.dev"
 
 source:
-  fn: dolfin-1.6.0.tar.gz
-  url: https://bitbucket.org/fenics-project/dolfin/downloads/dolfin-1.6.0.tar.gz
-  md5: 35cb4baf7ab4152a40fb7310b34d5800
+  fn: master.tar.gz
+  url: https://bitbucket.org/fenics-project/dolfin/get/master.tar.gz
 
 build:
   number: 0
@@ -17,22 +16,21 @@ requirements:
     - cmake
     - sphinx
     - libxml2
-    - swig ==3.0.7
+    - swig
     - numpy
-    #- vtk
     - ffc ==1.6.0
     - ply
     - boost
     - eigen3
-    - petsc <=3.6.2
-    - petsc4py <=3.6.0
+    - petsc
+    - petsc4py
     - slepc <=3.6.2
 
   run:
     - python
     - openblas
     - libxml2
-    - swig ==3.0.7
+    - swig
     - numpy
     #- vtk
     - ffc ==1.6.0
@@ -40,8 +38,8 @@ requirements:
     - ply
     - boost
     - eigen3
-    - petsc <=3.6.2
-    - petsc4py <=3.6.0
+    - petsc
+    - petsc4py
     - slepc <=3.6.2
 
 test:
