@@ -2,6 +2,36 @@
 This is README on my fork. Original readme is [here](source_readme.md).
 
 Clone repo, ``cd`` into it.
+=======
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+This repository contains conda recipes for the FEniCS libraries.
+The recipes work with conda-build, the build system created for
+the Anaconda Python distribution.
+
+**Note**: These recipes are no longer maintained and
+[outstanding bugs](https://github.com/Juanlu001/fenics-recipes/issues)
+are no longer being fixed. Please check out any of the
+[project forks](https://github.com/Juanlu001/fenics-recipes/network)
+and [this mailing list thread](https://groups.google.com/d/msg/fenics-support/jWuLkc9VdOE/DcXgmg1nAAAJ)
+for more information.
+
+## Installation from binstar (Linux 64bit)
+
+Packages are generated for linux-64 in the juanlu001 binstar channel.
+To install them, just type:
+
+`$ conda install fenics --channel juanlu001`
+
+**Note**: These binaries are portable across Linux distributions but
+are compiled without VTK support. If you want plotting capabilities,
+please consider local building.
+
+## Local building
+
+The recipes allow for building the packages locally, for later
+fast installation or even redistribution.
+>>>>>>> upstream/master
 
 ## Compilation inside docker iamge
 Build docker image with:
