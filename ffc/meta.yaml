@@ -28,17 +28,17 @@ requirements:
     - libgcc
     - libgfortran
 
-# test:
-#   imports:
-#     - ffc
-#     - ffc.backends
-#     - ffc.backends.dolfin
-#     - ffc.backends.ufc
-#     - ffc.errorcontrol
-#     - ffc.quadrature
-#     - ffc.tensor
-#     #- ffc_time_ext.time_elements_ext  # See #47
-#     - ufc
+test:
+  imports:
+    - ffc
+    - ffc.backends
+    - ffc.backends.dolfin
+    - ffc.backends.ufc
+    - ffc.errorcontrol
+    - ffc.quadrature
+    - ffc.tensor
+    #- ffc_time_ext.time_elements_ext  # See #47
+    - ufc
 
   commands:
     - ffc --help
